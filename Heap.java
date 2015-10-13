@@ -59,7 +59,7 @@ class Heap implements PriorityPQ {
 		System.out.println();
 			
 		
-	} // end trickleUp()
+	} // end moveNodeUp()
 	// -------------------------------------------------------------
 	
 	// delete item with max key
@@ -128,7 +128,7 @@ class Heap implements PriorityPQ {
 		System.out.println();
 			
 		
-	} // end trickleDown()
+	} // end moveNodeDown()
 	// -------------------------------------------------------------
 	
 	public void displayHeap() {
